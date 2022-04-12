@@ -1,3 +1,2 @@
-Rafael Kohls da Paz
-<img src="https://i.pinimg.com/564x/e8/23/dc/e823dcd34b123df918b9dffd62c0656e.jpg">
-
+## Rafael Paz
+<img align="center" alt="Rafa-pic" height="300" style="border-radius:50px;" src="https://data.whicdn.com/images/358797724/original.gif?t=1633232146">
