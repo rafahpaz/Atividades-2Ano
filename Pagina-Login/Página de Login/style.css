@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(171,102,255,1) 0%, rgba(116,182,247,1) 90% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-esquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-esquerda > h1 {
+    color: whitesmoke;
+    font-size: 3vw;
+}
+
+.img-esquerda {
+   width: 35vw; 
+}       
+
+.login-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.textfield > input {
+    width: 20vw;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 12px;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f0ffffde;
+    background: rgb(165, 81, 207);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.btn-forget {
+    width: 100%;
+    padding: 16px 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #f0ffffde;
+    background: rgb(127, 81, 150);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.cadastro {
+    color: #f0ffffde;
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .login-esquerda > h1{
+        display: none;
+    }
+    .login-esquerda{
+        width: 100%;
+        height: auto;
+    }
+    .login-direita{
+        width: 100%;
+        height: auto;
+    }
+    .img-esquerda{
+        width: 35vh;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
