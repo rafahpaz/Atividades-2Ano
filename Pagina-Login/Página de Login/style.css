@@ -38,7 +38,7 @@ a {
 
 .img-esquerda {
    width: 35vw; 
-}
+}       
 
 .login-direita {
     width: 50vw;
@@ -121,6 +121,10 @@ a {
     background: rgb(127, 81, 150);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00000056;
+}
+
+.cadastro {
+    color: #f0ffffde;
 }
 
 @media only screen and (max-width: 950px){
